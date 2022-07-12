@@ -1,0 +1,43 @@
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-image: linear-gradient(236deg, #74ebd5, #acb6e5);
+  background-attachment: fixed;
+}
+.calc {
+  border-radius: 12px;
+  box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.15);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  max-width: 15em;
+  overflow: hidden;
+}
+.cal_display {
+  background-color: black;
+  color: white;
+  text-align: right;
+  padding: 0.5em 0.7em;
+  font-size: 1.5rem;
+}
+
+.cal_keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.key_operator {
+  background-color: silver;
+}
+.cal_keys button {
+  padding: 20%;
+  text-align: center;
+  font-size: 1.5rem;
+  transition-duration: 0.5s;
+}
+
+.key_equal {
+  background-image: linear-gradient(to bottom, #fe886a, #ff7033);
+  grid-row: 2 / span 4;
+  grid-column-start: 4;
+}
